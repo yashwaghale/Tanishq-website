@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+/* NAVBAR */
+div{
+    background-color: #070322;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'WilliamsCaslonText','Times New Roman',Times,serif;
+   
+}
+h1{
+    border-bottom-style: solid;
+    border-bottom-color:  rgb(239, 193, 193);
+    border-bottom-width: 2px;
+    padding: 1%;
+    border-width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: 'WilliamsCaslonText','Times New Roman',Times,serif; 
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    transition-duration: 3s;
+}
+
+
+
+/* footer */
+
+.footer{
+    color: white;
+    background-color: #070322;
+
+}
+.footer h5{
+    text-align: center;
+}
+
+/* Home Section */
+/* container */
+
+.container{
+    position: relative;
+    text-align: center;
+  
+}
+
+.container h2{
+position: absolute;
+top: 50%;
+left: 19.5%;
+transform: translate(-50%, -50%);
+opacity: 0.8;
+color: #383838;
+font-size: 2.5rem;
+}
+
+.container p{
+position: absolute;
+top: 55%;
+left: 21.5%;
+transform: translate(-50%, -50%);
+text-align: left;
+opacity: 0.8;
+color: #383838;
+width: 30rem;
+font-size: 0.9375rem;
+}
+
+#home{
+    border-bottom-style: solid;
+    border-bottom-color:  black;
+    border-bottom-width: 1.2px;
+    border-width: 50%;
+
+}
+
+
+
+/* Ring */
+.Ring{
+    position: relative;
+    text-align: center;
+  
+}
+
+.Ring h2{
+position: absolute;
+top: 50%;
+left: 19.5%;
+transform: translate(-50%, -50%);
+opacity: 0.8;
+color: #383838;
+font-size: 2.5rem;
+}
+
+.Ring p{
+position: absolute;
+top: 55%;
+left: 21.5%;
+transform: translate(-50%, -50%);
+text-align: left;
+opacity: 0.8;
+color: #383838;
+width: 30rem;
+font-size: 0.9375rem;
+}
+
+#home{
+    border-bottom-style: solid;
+    border-bottom-color:  black;
+    border-bottom-width: 1.2px;
+
+}
+
+
+/* Daimond */
+.Daimond{
+    position: relative;
+    text-align: center;
+  
+}
+
+.Daimond h2{
+position: absolute;
+top: 12%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0.8;
+color: #383838;
+font-size: 2.5rem;
+}
+
+.Daimond p{
+position: absolute;
+top: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: left;
+opacity: 0.8;
+color: #383838;
+width: 30rem;
+font-size: 0.9375rem;
+}
+
+#home{
+    border-bottom-style: solid;
+    border-bottom-color:  black;
+    border-bottom-width: 1.2px;
+
+}
+
+.container1{
+    image-rendering: initial;
+}
+
+/* About us*/
+.about{
+    text-align: center;
+}
+.head{
+    background-color: #070322;
+  
+}
+
+
+.head h1{
+   position: absolute;
+    top: 100%;
+    left: 40%;
+    color: goldenrod;
+}
+.head p{
+    position: absolute;
+    top: 110%;
+    left: 25%;
+    text-justify: auto;
+    width: 50%;
+    text-align: center;
+    color: goldenrod;
+}
+
+.philosophy h1{
+    position: absolute;
+     top: 160%;
+     left: 40%;
+     color:goldenrod;
+}
+
+.philosophy p{
+    position: absolute;
+    top: 170%;
+    left: 25%;
+    text-justify: auto;
+    width: 50%;
+    text-align: center;
+    color: goldenrod;
+}
+
+#about{
+    text-align: center;
+}
+
+/* Contact Us*/
+
+.enquiry h1{
+    color: #070322;
+  
+    
+}
+
+
+
+/* Services */
+
+.products h1{
+    position: absolute;
+    top: 170%;
+    left: 40%;
+    color:#070322;
+}
+
+.products p{
+    position: absolute;
+    top: 180%;
+    left: 30%;
+   width: 40%;
+   
+}
+
+h1{
+    color: aliceblue;
+}
+.product img{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.product1 .btn{
+   margin-top: 10%;
+   width: 20%;
+}
+
+
+/* external */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+

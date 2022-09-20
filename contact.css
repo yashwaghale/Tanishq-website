@@ -1,0 +1,95 @@
+
+
+
+/* NAVBAR */
+div{
+    background-color:#070322; 
+}
+
+
+div h1{
+    text-align: center;
+    color: white;
+    font-family: 'WilliamsCaslonText','Times New Roman',Times,serif;
+}
+h1{
+    border-bottom-style: solid;
+    border-bottom-color:  rgb(239, 193, 193);
+    border-bottom-width: 2px;
+    padding: 1%;
+    border-width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: 'WilliamsCaslonText','Times New Roman',Times,serif; 
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    transition-duration: 3s;
+}
+
+
+
+/* footer */
+
+.footer{
+    color: white;
+    background-color: #070322;
+
+}
+.footer h5{
+    text-align: center;
+}
+
+
+
+
+
+/* contact us*/
+
+.enquiry h1{
+    color:#070322;
+    margin-right: 80%;
+    margin-left: 20%;
+}
+
+.enquiry {
+    display: flexbox;
+    background-color: grey;
+    width: 55%;
+    margin-left: 25%;
+   
+}
+.enquiry .btn{
+    text-align: center;
+    background-color:white;
+    padding: 10px 20px ;
+    cursor: pointer;
+}
+h2{
+    text-align: center;
+}
+
